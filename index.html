@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--jQuery-->
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!--Plugin jQuery Validation-->
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <title>Projeto Banco de Dados</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <section id="bloco">
+        <div id="txtApres">
+            Formulário de cadastro
+            <div id="txtSub">
+            Projeto para implemetação de banco de dados
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <div id="txtInfo">
+        <p>Digite seu nome e CPF para enviar seus dados para o nosso banco de dados :)</p>
+    </div>
+
+    <section class="container">
+        <form method="post" id="dadosInser" action="bemvindo.php">
+            <p>
+            <input type="text" id="iNome" name="lNome" class="inserir" placeholder="Digite seu nome">
+            </p>
+            <p>
+            <input type="text" id="iCPF" name="lCpf" class="inserir2" maxlength="14" placeholder="Digite seu CPF">
+            </p>
+            <br><br>
+            <button type="submit" id="btnForm" value="cadastrar">CADASTRAR</button>
+        </form>
+    </section>
+
+    <script src="js/validacao.js"></script>
+</body>
+</html>

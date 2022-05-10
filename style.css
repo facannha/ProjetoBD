@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+#bloco{
+    background-color: #c1a5a9;
+    height: 937px;
+    float: left;
+    width: 40%;
+    display: flex;
+}
+#txtApres{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 30%;
+    min-width: 100px;
+}
+#txtSub{
+    font-size: 20px;
+    text-align: center;
+}
+#txtInfo{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+}
+#dadosInser{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: rgba(218, 218, 218, 0.938);
+    width: 50%;
+    height: 350px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 13px;
+    margin-top: 6%;
+    border: 1px solid #79597e;
+}
+.inserir{
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 2%;
+}
+.inserir2{
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 2%;
+}
+#btnForm{
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    background-color: white;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+}
